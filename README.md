@@ -20,11 +20,15 @@ This project implements a two-unit wireless walkie-talkie system using Arduino U
 
 - ✅ **Bidirectional LED wireless communication** — working
 - ✅ **Audio loopback** (mic → amp → speaker, wired) — working
-- ⚠️ **Wireless audio transmission** — in progress
+- ✅ **Wireless audio transmission** — fully functional, clear two-way voice
 
-### Known Issue
+### Notes
 
-Wireless audio transmission is currently unresolved. Symptoms point to packet sync corruption, likely caused by power instability on the NRF24L01+PA+LNA modules under load. Next steps include adding dedicated decoupling capacitors and/or a separate regulated power supply for the RF modules.
+Both units transmit and receive voice clearly over the nRF24L01+PA+LNA link. The earlier packet sync / power instability issue was resolved by switching to a 9V power adapter (reducing regulator heat) and correcting the RC audio filter (47Ω resistor + 1µF capacitor) and mic gain settings.
+
+One expected behavior: bringing both units very close together causes audio feedback/echo (acoustic feedback loop, not a hardware fault) — keep them a room apart during testing/demo.
+
+See [`PROJECT_LOG.md`](./PROJECT_LOG.md) for the full build log, issues hit, and fixes applied.
 
 ## Repository Structure
 
@@ -51,4 +55,4 @@ This project draws on concepts from:
 
 ## Author
 
-Developed by [your name] — Department of ICT, Mawlana Bhashani Science and Technology University (MBSTU)
+Developed by Mahfuzur Rahman — Department of ICT, Mawlana Bhashani Science and Technology University (MBSTU)
