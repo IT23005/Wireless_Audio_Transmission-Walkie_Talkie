@@ -51,8 +51,3 @@ This project draws on concepts from:
 - **Communication Engineering** — RF transmission, modulation
 - **Digital Signal Processing** — audio signal handling
 - **Data Communication** — packet-based wireless protocols
-- **Theory of Computation** — system/protocol design
-
-## Author
-
-Developed by Mahfuzur Rahman — Department of ICT, Mawlana Bhashani Science and Technology University (MBSTU)
