@@ -18,6 +18,9 @@ This project implements a two-unit wireless walkie-talkie system using Arduino U
 | PAM8403 | Class-D audio amplifier |
 | 4Ω 10W Speaker | Audio output |
 
+<img width="3456" height="4608" alt="Wireless Audio Transmission" src="https://github.com/user-attachments/assets/dce812b7-bfaf-4224-b95e-2526b9b726aa" /> 
+
+
 ## Project Status
 
 - ✅ **Bidirectional LED wireless communication** — working
