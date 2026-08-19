@@ -6,6 +6,8 @@ A multi-course integration project combining embedded systems, communication eng
 
 This project implements a two-unit wireless walkie-talkie system using Arduino UNO microcontrollers and NRF24L01+PA+LNA RF modules. It was developed as a capstone integration project and has been approved by the course supervisor.
 
+<img width="3456" height="4608" alt="Wireless Audio Transmission" src="https://github.com/user-attachments/assets/a20773ef-056d-4886-9546-55cb2278bbc0" />
+
 ## Hardware
 
 | Component | Purpose |
