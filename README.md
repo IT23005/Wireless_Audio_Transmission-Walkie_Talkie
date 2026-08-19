@@ -1,7 +1,5 @@
  Wireless Audio Transmission Walkie-Talkie
 
- [Wireless Audio Transmission.pdf](https://github.com/user-attachments/files/31242341/Wireless.Audio.Transmission.pdf)
-
 A multi-course integration project combining embedded systems, communication engineering, DSP, and data communication concepts into a working Arduino-based walkie-talkie.
 
 ## Overview
@@ -53,3 +51,6 @@ This project draws on concepts from:
 - **Communication Engineering** — RF transmission, modulation
 - **Digital Signal Processing** — audio signal handling
 - **Data Communication** — packet-based wireless protocols
+
+ [Wireless Audio Transmission.pdf](https://github.com/user-attachments/files/31242341/Wireless.Audio.Transmission.pdf)
+
