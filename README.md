@@ -1,12 +1,12 @@
- Wireless Audio Transmission Walkie-Talkie
+<img width="3456" height="4608" alt="Wireless Audio Transmission" src="https://github.com/user-attachments/assets/a20773ef-056d-4886-9546-55cb2278bbc0" />
+
+# Wireless Audio Transmission Walkie-Talkie
 
 A multi-course integration project combining embedded systems, communication engineering, DSP, and data communication concepts into a working Arduino-based walkie-talkie.
 
 ## Overview
 
 This project implements a two-unit wireless walkie-talkie system using Arduino UNO microcontrollers and NRF24L01+PA+LNA RF modules. It was developed as a capstone integration project and has been approved by the course supervisor.
-
-<img width="3456" height="4608" alt="Wireless Audio Transmission" src="https://github.com/user-attachments/assets/a20773ef-056d-4886-9546-55cb2278bbc0" />
 
 ## Hardware
 
@@ -17,9 +17,6 @@ This project implements a two-unit wireless walkie-talkie system using Arduino U
 | MAX9814 | Microphone amplifier with AGC |
 | PAM8403 | Class-D audio amplifier |
 | 4Ω 10W Speaker | Audio output |
-
-<img width="3456" height="4608" alt="Wireless Audio Transmission" src="https://github.com/user-attachments/assets/dce812b7-bfaf-4224-b95e-2526b9b726aa" /> 
-
 
 ## Project Status
 
